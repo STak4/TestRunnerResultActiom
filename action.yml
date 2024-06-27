@@ -1,23 +1,22 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: "Test Runner Results Action"
+description: "Show results for Test Runner"
+author: "STak4"
 
 # Add your action's branding here. This will appear on the GitHub Marketplace.
 branding:
-  icon: 'heart'
-  color: 'red'
+  icon: "radio"
+  color: "red"
 
-# Define your inputs here.
+# Inputs
 inputs:
-  milliseconds:
-    description: 'Your input description here'
+  myInput:
+    description: "An input for the action"
     required: true
-    default: '1000'
 
-# Define your outputs here.
+# Outputs
 outputs:
-  time:
-    description: 'Your output description here'
+  myOutput:
+    description: "An output from the action"
 
 runs:
   using: node20
